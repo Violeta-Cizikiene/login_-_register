@@ -6,7 +6,7 @@ require('data.php');
 $errors = '';
 $notifications = '';
 
-// forma isiusta
+// forma issiusta
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 	//htmlspecialchars - pavercia specialius simbolius i html entities'cius

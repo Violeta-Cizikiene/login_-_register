@@ -29,3 +29,7 @@ echo feedbackElement();
 	</form>
 
 </div>
+
+</body>
+
+</html>
