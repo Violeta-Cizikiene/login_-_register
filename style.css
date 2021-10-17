@@ -64,9 +64,11 @@ button:hover {
 
 input {
 	border-radius: 5px;
+	max-width: 100%;
 	width: 400px;
 	height: 30px;
 	border: 1px solid #adb4b9;
+	box-sizing: border-box;
 }
 
 .input-group {
@@ -95,4 +97,10 @@ input {
 	background-color: #7dbae5;
 	text-align: center;
 	color: white;
+}
+
+@media screen and (max-width: 420px) {
+	.container {
+	margin: 10px;
+	}
 }
