@@ -21,7 +21,7 @@ echo feedbackElement();
 
 		<div class="input-group">
 			<label for="password">Password</label><br>
-			<input class="" type="text" name="password" id="password" value="">
+			<input class="" type="password" name="password" id="password" value="">
 		</div>
 
 		<button type='submit'>Login</button>
